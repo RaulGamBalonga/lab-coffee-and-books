@@ -1,0 +1,18 @@
+<form action="/places/editar/:id" method="POST">
+
+    <label for="name">
+        Nombre
+        <input name="name" id="name" type="text" value={{name}}>
+    </label>
+    </br>
+
+    </br>
+    <select name="type">
+
+        <option value="coffee shop">cafeteria</option>
+        <option value="bookstore">libreria</option>
+    </select>
+
+
+    <button type="submit">Editar place</button>
+</form>

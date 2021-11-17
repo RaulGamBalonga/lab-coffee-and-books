@@ -1,0 +1,17 @@
+<h1>Listado de lugares</h1>
+
+<ul>
+    {{#each allPlaces}}
+    
+        <li>{{name}} - {{type}}</li>
+    <a href="/places/editar/{{id}}"> Editar Café o Librería</a>
+    </br>
+    <a href="/places/borrar/{{id}}">Borrar Café o Librería</a>
+    
+    {{/each}}
+</ul>
+
+<a href="/places/crear">Crear nuevo Café o Librería</a>
+</br>
+</br>
+<a href="/">INICIO</a>
